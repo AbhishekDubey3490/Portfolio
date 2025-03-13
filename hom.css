@@ -86,3 +86,17 @@ nav ul li a {
     height: auto;
     border-radius: 50%;
 }
+.container3 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.container3 a {
+    font-size: 60px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.container3 a:hover {
+    color: #eb0e0e;
+    transform: scale(1.2);
+}
