@@ -11,7 +11,16 @@ body {
     justify-content: center;
     text-align: center;
 }
-
+.return-icon {
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    z-index: 1000;
+}
+.return-icon i {
+    font-size: 30px;
+    color: #fff;
+}
 header {
     margin-bottom: 40px;
 }
