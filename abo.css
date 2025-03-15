@@ -69,7 +69,7 @@ p {
     font-size: 1.5 em;
     text-align: center;
 }
-.skill-card p {
+.skill-card a {
     color: #fff;
     font-size: 1 em;
 }
