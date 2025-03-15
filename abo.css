@@ -53,6 +53,7 @@ p {
     flex: 1 1 calc(33.333% - 40px);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
 }
 .skill-card:hover {
     transform: translateY(-5px);
