@@ -6,6 +6,16 @@ body {
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: #fff;
 }
+.return-icon {
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    z-index: 1000;
+}
+.return-icon i {
+    font-size: 30px;
+    color: #fff;
+}
 .container {
     max-width: 900px;
     margin: 50px auto;
