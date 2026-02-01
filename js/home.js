@@ -29,9 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             // ================================================
-            // IMPORTANT: CHANGE THIS TO YOUR REAL EMAIL ADDRESS!
             // ================================================
-            const yourEmail = 'abhishekdubey3490@gmail.com'; // ← CHANGE THIS!
+            const yourEmail = 'abhishekdubey3490@gmail.com';
             // ================================================
             
             // Create mailto link
@@ -53,9 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // LinkedIn button functionality
     const linkedinBtn = document.querySelector('.linkedin-btn');
     if (linkedinBtn) {
-        // Update with your actual LinkedIn URL
-        linkedinBtn.href = 'https://linkedin.com/in/YOUR-PROFILE-NAME';
-        // Opens in new tab by default
+        linkedinBtn.href = 'https://www.linkedin.com/in/abhishekdubey05/';
     }
     
     // Profile image hover effect
@@ -77,4 +74,5 @@ document.addEventListener('DOMContentLoaded', function() {
         link.setAttribute('target', '_blank');
         link.setAttribute('rel', 'noopener noreferrer');
     });
+
 });
